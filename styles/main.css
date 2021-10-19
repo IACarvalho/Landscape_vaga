@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+:root {
+/* colors */
+  --primary: #0079C1;
+  --darker-600: #314163;
+  --darker-400: #0872A4;
+  --lighter: #E8F7FE;
+  --button: #4A85AF;
+  --white: #FFFFFF;
+  --logo: #99C9E6;
+}

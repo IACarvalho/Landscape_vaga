@@ -1,2 +1,2 @@
 # Landscape_vaga
-Projeto feito para tese de vaja do grupo O Povo
+Projeto feito para teste de vaga do grupo O Povo
