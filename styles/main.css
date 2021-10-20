@@ -6,7 +6,9 @@
 
 html {
   font-size: 100%;
+  font-family: 'Oswald', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif:wght@700&display=swap');
 
 :root {
 /* colors */
@@ -17,4 +19,22 @@ html {
   --button: #4A85AF;
   --white: #FFFFFF;
   --logo: #99C9E6;
+}
+
+
+.navbar{
+  background-color: var(--primary);
+  font-family: 'PT Serif', serif;
+  font-size: 19px;
+}
+
+.logo{
+  font-size: 1.3rem !important;
+  font-weight: 700;
+  color: var(--logo) !important;
+  margin-right: 150px !important;
+}
+
+.logo span{
+  color: var(--white) !important;
 }
