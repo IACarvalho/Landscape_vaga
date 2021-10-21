@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif:wght@700&display=swap');
+
 html {
   font-size: 100%;
   font-family: 'Oswald', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif:wght@700&display=swap');
 
 :root {
 /* colors */
@@ -16,8 +17,10 @@ html {
   --darker-600: #314163;
   --darker-400: #0872A4;
   --lighter: #E8F7FE;
-  --button: #4A85AF;
+  --dark-blue: #314163;
+  --form-button: #4A85AF;
   --white: #FFFFFF;
+  --brack: #000000;
   --logo: #99C9E6;
 }
 
@@ -26,6 +29,9 @@ html {
   background-color: var(--primary);
   font-family: 'PT Serif', serif;
   font-size: 19px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .logo{
@@ -37,4 +43,144 @@ html {
 
 .logo span{
   color: var(--white) !important;
+}
+
+#form-container{
+  background-color: var(--lighter);
+  width: 490px;
+  height: 827px;
+  margin-left: 490px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+form{
+  width: 457px;
+  height: 712px;
+  border: 1px solid var(--brack);
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  padding: 20px 15px 42px 15px;
+  color: var(--dark-blue);
+}
+
+form label{
+  font-size: 22px;
+}
+
+form input {
+  background-color: var(--lighter) !important;
+  border: 1px solid var(--brack) !important;
+  height: 33px;
+
+}
+
+#form-title{
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-group input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-row{
+  display: flex;
+}
+
+#inputCity{
+  width: 173px;
+}
+
+#inputAddressNumber{
+  width: 173px;
+}
+
+#inputAddressDistrict{
+  width: 234px;
+  margin-left: -23px;
+}
+
+#inputState{
+  width: 234px;
+  margin-left: -23px;
+}
+
+#inputStateLabel{
+  margin-left: -23px;
+}
+
+#inputAddressDistrictLabel{
+  margin-left: -23px;
+}
+
+#resumeInput{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+  gap: 0;
+  row-gap: 0;
+}
+
+.personal-form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 175px;
+}
+
+#formControlFileLabel{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 42px;
+  background-color: var(--form-button);
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 400;
+  width: 165px;
+  height: 40px;
+}
+
+#formControlFile{
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#describeText{
+  display: flex;
+  font-size: 14px;
+  white-space: nowrap;
+  justify-content: center;
+  line-height: 0.5px;
+  font-weight: 200;
+  margin-right: 83px;
+  font-family: 'Oswald', sans-serif;
+  font-stretch: ultra-condensed;
+}
+
+#describeText p:first-child {
+  padding-top: 20px;
+}
+
+#button{
+  width: 165px;
+  height: 40px;
+  border: none;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: auto;
+  
 }
