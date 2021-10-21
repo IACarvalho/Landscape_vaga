@@ -29,6 +29,14 @@ html {
   background-color: var(--primary);
   font-family: 'PT Serif', serif;
   font-size: 19px;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.container-fluid{
+  max-width: 1140px;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -36,20 +44,66 @@ html {
 
 .logo{
   font-size: 1.3rem !important;
-  font-weight: 700;
   color: var(--logo) !important;
   margin-right: 150px !important;
+  text-decoration: none;
 }
 
-.logo span{
+#opovo span{
   color: var(--white) !important;
+}
+
+#opovo{
+  font-weight: 700 !important;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  height: 1900px;
+
+}
+
+#backButton{
+  margin: 50px 0 50px 97px;
+  cursor: pointer;
+}
+
+article{
+  max-width: 1140px;
+  width: 100vw;
+  display: flex;
+  color: var(--darker-600);
+}
+
+article h1 {
+  font-size: 50px;
+}
+
+article h2 {
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+article h4{
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.aticleText {
+  font-size: 19px;
+}
+
+#description{
+  margin-left: 112px;
 }
 
 #form-container{
   background-color: var(--lighter);
   width: 490px;
   height: 827px;
-  margin-left: 490px;
+  margin-left: 112px;
+  margin-top: 30px;
 
   display: flex;
   flex-direction: column;
@@ -184,3 +238,48 @@ form input {
   margin-left: auto;
   
 }
+
+#sideBar{
+  width: 290px;
+  height: 1590px;
+  background-color: var(--darker-600);
+  margin-left: 160px;
+  margin-right: 97px;
+  margin-top: 127px;
+  display: flex;
+  justify-content: center;
+}
+
+#sideBar img {
+  margin-left: -95px;
+  margin-top: 400px;
+  width: 390px;
+  height: 390px;
+}
+
+
+footer{
+  background-color: var(--primary);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerText{
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}
+
+#footerText a{
+  margin-left: 0;
+}
+
+#copyright{
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--white);
+}
+
